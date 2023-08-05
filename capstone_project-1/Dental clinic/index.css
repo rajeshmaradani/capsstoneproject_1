@@ -1,0 +1,1043 @@
+body{
+	background-color: black;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	width: 1050px;
+	height: 520px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.a{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	float:right;
+	position: relative;
+	top:100px;
+	right:0 px;
+	background-image: url("1.avif");
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 300px;
+}
+.b{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	left: 70px;
+	top: 150px;
+}
+.b h1{
+	font-size: 30px;
+}
+.b h5{
+	padding-top: 10px;
+}
+.main > i{
+	float: right;
+	position: relative;
+	top:40px;
+	right: 30px;
+}
+.b button{
+	position: absolute;
+	bottom: 10px;
+	background-color: transparent;
+	border-color:orange ;
+	width: 130px;
+	height: 40px;
+	color: orange;
+}
+.b ul{
+	list-style-type: none;
+}
+.c{
+	width: 1050px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.c1{
+	width: 200px;
+	height: 230px;
+	background-color: #ff6900;
+	float: left;
+	border-radius: 10px;
+	position: absolute;
+	left: 70px;
+	padding: 10px;
+}
+.c2{
+	width: 200px;
+	height: 230px;
+	background-color: #ff6900;
+	float: left;
+	position: absolute;
+	left: 320px;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+.c3{
+	width: 200px;
+	height: 230px;
+	background-color: #ff6900;
+	float: right;
+	position: absolute;
+	left: 570px;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+.c4{
+	width: 200px;
+	height: 230px;
+	background-color: #ff6900;
+	float: right;
+	position: absolute;
+	left: 820px;
+	border-radius: 10px;
+    padding: 10px;
+
+}
+.c1 > i{
+	font-size: 40px;
+	color:white;
+	position: relative;
+	top:20px;
+	left: 75px;
+}
+.c1 > h4{
+	color:white;
+	position: relative;
+	top:30px;
+	left: 40px;
+}
+.c1 > p{
+	color:white;
+	text-align: center;
+	position: relative;
+	top:50px;
+
+}
+.c1 > span{
+	color:white;
+	position: relative;
+	top:80px;
+	left:70px;
+	text-decoration: underline;
+}
+.c2 > i{
+	font-size: 40px;
+	color:white;
+	position: relative;
+	top:20px;
+	left: 70px;
+}
+.c2 > h4{
+	color:white;
+	position: relative;
+	top:30px;
+	left: 30px;
+}
+.c2 > p{
+	color:white;
+	text-align: center;
+	position: relative;
+	top:50px;
+
+}
+.c2 > span{
+	color:white;
+	position: relative;
+	top:80px;
+	left:70px;
+	text-decoration: underline;
+}
+.c3 > i{
+	font-size: 40px;
+	color:white;
+	position: relative;
+	top:20px;
+	left: 70px;
+}
+.c3 > h4{
+	color:white;
+	position: relative;
+	top:30px;
+	left: 30px;
+}
+.c3 > p{
+	color:white;
+	text-align: center;
+	position: relative;
+	top:50px;
+
+}
+.c3 > span{
+	color:white;
+	position: relative;
+	top:80px;
+	left:70px;
+	text-decoration: underline;
+}
+
+.c4 > i{
+	font-size: 40px;
+	color:white;
+	position: relative;
+	top:20px;
+	left: 70px;
+}
+.c4 > h4{
+	color:white;
+	position: relative;
+	top:30px;
+	left: 25px;
+}
+.c4 > p{
+	color:white;
+	text-align: center;
+	position: relative;
+	top:50px;
+
+}
+.c4 > span{
+	color:white;
+	position: relative;
+	top:80px;
+	left:70px;
+	text-decoration: underline;
+}
+.d{
+	width: 1050px;
+	height: 450px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.d >h1{
+	text-align: center;
+}
+.d1{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+.d2{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 70px;
+
+}
+.d3{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	float: left;
+	position: relative;
+	top: 70px;
+	left: 100px;
+}
+.d4{
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	float: right;
+	position: relative;
+	top: 70px;
+	right: 70px;
+}
+.s1{
+	width: 30px;
+	height: 30px;
+	background-color: #ff6900;
+	border-radius: 15px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.d1 >h4{
+	position: relative;
+	top: 25px;
+	left: 60px;
+	color: gray;
+}
+.d1 >p{
+	position: relative;
+	top: 40px;
+	left: 60px;
+	text-align: left;
+	color: gray;
+	font-style: italic;
+
+       
+}
+.s2{
+	width: 30px;
+	height: 30px;
+	background-color: #ff6900;
+	border-radius: 15px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.d2 >h4{
+	position: relative;
+	top: 25px;
+	left: 60px;
+	color: gray;
+}
+.d2 >p{
+	position: relative;
+	top: 40px;
+	left: 60px;
+	text-align: left;
+	color: gray;
+	font-style: italic;
+
+       
+}.s3{
+	width: 30px;
+	height: 30px;
+	background-color: #ff6900;
+	border-radius: 15px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.d3 >h4{
+	position: relative;
+	top: 25px;
+	left: 60px;
+	color: gray;
+}
+.d3 >p{
+	position: relative;
+	top: 40px;
+	left: 60px;
+	text-align: left;
+	color: gray;
+	font-style: italic;
+
+       
+}
+.s4{
+	width: 30px;
+	height: 30px;
+	background-color: #ff6900;
+	border-radius: 15px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.d4 >h4{
+	position: relative;
+	top: 25px;
+	left: 60px;
+	color: gray;
+
+}
+.d4 >p{
+	position: relative;
+	top: 40px;
+	left: 60px;
+	text-align: left;
+	color: gray;
+	font-style: italic;
+       
+}
+/*.f{
+	width: 1050px;
+	height: 650px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+	padding: 10px;
+}*/
+.e{
+	width: 1050px;
+	height: 600px;
+	background-color: lightgray;
+	position: relative;
+	left: 240px;
+	background-image: url("images/2.avif");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.e span{
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	left: 60px;
+}
+.e h1{
+	font-size: 50px;
+	position: relative;
+	top: 100px;
+	left: 60px;
+}
+.s5{
+	width: 400px;
+	height: 300px;
+	background-color:whitesmokei ;
+	position: relative;
+	left: 60px;
+	top: 120px;
+}
+.s51{
+	width: 190px;
+	height: 300px;
+/*	background-color: lightgray;*/
+	float: left;
+}
+.s52{
+	width: 190px;
+	height: 300px;
+/*	background-color: lightgray;*/
+	float: right;
+}
+.g{
+	width: 1050px;
+	height:400px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.g >h1{
+	text-align: center;
+}
+.g1{
+	width: 220px;
+	height:270px;
+	background-color: #ff6900;
+	float: left;
+    position: relative;
+    top: 30px;
+    left:150px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.g2{
+	width: 220px;
+	height: 270px;
+	background-color: #ff6900;
+	float: left;
+	position: relative;
+    top: 30px;
+    left:195px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.g3{
+	width: 220px;
+	height: 270px;
+	background-color: #ff6900;
+	float: right;
+	position: relative;
+	top: 30px;
+	right: 150px;
+	border-radius: 10px;
+	padding: 20px;
+}
+.g1 >i{
+	font-size: 50px;
+	color:#ffc700;
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+.g1 >h3{
+	position: relative;
+	top: 5px;
+	left:20px;
+	color: white;
+
+}
+.g1 >p{
+	position: relative;
+	top: 10px;
+	left:20px;
+	color: white;
+}
+.g1 >hr{
+	position: relative;
+	top: 20px;
+}
+.g1 >span{
+	position: relative;
+	top: 30px;
+	font-size: 10px;
+	color: white;
+}
+.g2 >i{
+	font-size: 50px;
+	color:#ffc700;
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+.g2 >h3{
+	position: relative;
+	top: 5px;
+	left:20px;
+	color: white;
+
+}
+.g2 >p{
+	position: relative;
+	top: 10px;
+	left:20px;
+	color: white;
+}
+.g2 >hr{
+	position: relative;
+	top: 20px;
+}
+.g2 >span{
+	position: relative;
+	top: 30px;
+	font-size: 10px;
+	color: white;
+}
+.g3 >i{
+	font-size: 50px;
+	color:#ffc700;
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+.g3 >h3{
+	position: relative;
+	top: 5px;
+	left:20px;
+	color: white;
+
+}
+.g3 >p{
+	position: relative;
+	top: 10px;
+	left:20px;
+	color: white;
+}
+.g3 >hr{
+	position: relative;
+	top: 20px;
+}
+.g3 >span{
+	position: relative;
+	top: 30px;
+	font-size: 10px;
+	color: white;
+}
+.h{
+	width: 1050px;
+	height: 520px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+
+}
+.h1{
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	float:left;
+	position: relative;
+	top:10px;
+	left: 0px;
+	background-image: url("images/3.avif");
+	border-top-right-radius: 300px;
+	border-bottom-right-radius: 300px;
+}
+.h2{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	left: 570px;
+	top: 70px;
+}
+.h2 >h5{
+	position: relative;
+	bottom: 390px;
+}
+.h2 >h1{
+	position: relative;
+	bottom: 400px;
+}
+.h2 >p{
+	position: relative;
+	bottom: 400px;
+}
+.h2 >button{
+	position: absolute;
+	bottom: 10px;
+	background-color: transparent;
+	border-color:orange ;
+	width: 130px;
+	height: 40px;
+	color: orange;
+}
+.i{
+	width: 1050px;
+	height: 1000px;
+	background-color:#ff6900 ;
+	position: relative;
+	left: 240px;
+}
+.i >h1{
+	text-align: center;
+	color: white;
+}
+.i >p{
+	text-align: center;
+	color: white;
+}
+.i1{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	float: left;
+	position: relative;
+	left: 150px;
+	top: 40px;
+}
+.i2{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	float: left;
+	position: relative;
+	top: 40px;
+	left:225px;
+
+	
+}
+.i3{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	float: right;
+	position: relative;
+	right: 150px;
+	top:40px;
+}
+.i4{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	position: relative;
+	top:500px;
+	left: 150px;
+
+}
+.i5{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	position: relative;
+	top:120px;
+	left: 425px;
+}
+.i6{
+	width: 200px;
+	height: 380px;
+	background-color: white;
+	float: right;
+	position: relative;
+	right: 150px;
+	bottom: 260px;
+}
+.r1{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/5.avif");
+    background-size : cover ; 
+}
+.i1 >span{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i1 >h2{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i1 >p{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+.i1 >i{
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: #ff6900 ;
+}
+.r2{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/4.avif");
+    background-size : cover ; 
+}
+.i2 >span{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i2 >h2{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i2 >p{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+.i2 >i{
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: #ff6900 ;
+}
+.r3{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/9.avif");
+    background-size : cover ; 
+}
+.i3 >span{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i3 >h2{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i3 >p{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+.i3 >i{
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: #ff6900 ;
+}
+
+.r4{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/7.avif");
+    background-size: cover;
+}
+.i4 >span{
+	position: relative;
+	left:10px;
+	bottom: 200px;
+}
+.i4 >h2{
+	position: relative;
+	bottom: 200px;
+	left:10px;
+}
+.i4 >p{
+	position: relative;
+	bottom: 200px;
+	left:10px;
+}
+.i4 >i{
+	font-size: 30px;
+	position: relative;
+	bottom: 200px;
+	color: #ff6900 ;
+}
+.r5{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/1.avif");
+    background-size : cover ; 
+}
+.i5 >span{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i5 >h2{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i5 >p{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+.i5 >i{
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: #ff6900 ;
+}
+.r6{
+	width: 180px;
+	height: 170px;
+	background-color: red;
+	position: relative;
+	left:10px;
+	top: 10px;
+    background-image: url("images/6.avif");
+    background-size : cover ;  
+}
+.i6 >span{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i6 >h2{
+	position: relative;
+	top:10px;
+	left:10px;
+}
+.i6 >p{
+	position: relative;
+	top:15px;
+	left:10px;
+}
+.i6 >i{
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: #ff6900 ;
+}
+.j{
+	width: 1050px;
+	height: 500px;
+	background-color:white ;
+	position: relative;
+	left: 240px;
+
+}
+.j1{
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	float:right;
+	position: relative;
+	top: 50px;
+	left: 200px;
+	background-image: url("images/10.avif");
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 300px;
+}
+.j2{
+	position: absolute;
+	bottom: 350px;
+	left: 150px;
+	background-color: transparent;
+	border-color:orange ;
+	width: 130px;
+	height: 40px;
+	color: black;
+}
+.j2 button{
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	background-color: transparent;
+	border-color:orange ;
+	width: 130px;
+	height: 40px;
+	color: orange;
+}
+.k{
+	width: 1050px;
+	height: 520px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.k1{
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	float:left;
+	position: relative;
+	top:10px;
+	left: 0px;
+	background-image: url("images/11.avif");
+	border-top-right-radius: 300px;
+	border-bottom-right-radius: 300px;
+}
+.k2{
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	position: relative;
+	left: 550px;
+	top: 190px;
+}
+.k2 >span{
+	position: relative;
+	bottom: 400px;
+	color: black;
+}
+.k2 >hr{
+	position: relative;
+	bottom: 300px;
+}
+.m{
+	position: relative;
+	bottom: 300px;
+}
+.k2 p{
+	color: black;
+	position: relative;
+	bottom: 320px;
+	left: 20px;
+}
+.k2 >button{
+	position: relative;
+	bottom: 300px;
+	left: 0px;
+	background-color:#ff6900  ;
+	border-color:orange ;
+	width: 300px;
+	height: 40px;
+	color:white ;
+
+}
+.l{
+	width: 1050px;
+	height: 320px;
+	background-color: white;
+	position: relative;
+	left: 240px;
+}
+.l1{
+	background-color: #ff6900 ;
+	width: 200px;
+	height: 100px;
+	position: relative;
+	float: left;
+	left: 150px;
+	bottom: 60px;
+	border-radius: 10px;
+}
+.l1 >i{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l1 >span{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l1 >p{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l2{
+	background-color: #ff6900 ;
+	width: 200px;
+	height: 100px;
+	position: relative;
+	float: left;
+	left: 225px;
+	bottom: 60px;
+	border-radius: 10px;
+
+}
+.l3{
+	background-color: #ff6900 ;
+	width: 200px;
+	height: 100px;
+	position: relative;
+	float: right;
+	right: 150px;
+	bottom: 60px;
+	border-radius: 10px;
+}
+.l2 >i{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l2 >span{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l2 >p{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l3 >i{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l3 >span{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+}
+.l3 >p{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	color: white;
+	}	
